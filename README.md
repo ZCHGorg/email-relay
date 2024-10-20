@@ -1,15 +1,18 @@
-📧 Distributed Node Network with Email Authentication
-A fully decentralized, peer-to-peer (P2P) distributed network that allows for secure file and email handling. Each node is authenticated via email, and the system allows seamless communication and data replication between the user's nodes. This solution is entirely self-hosted and does not rely on third-party services.
+# 📧 Distributed Node Network with Email Authentication
 
-🚀 Features
-Email-Based Authentication: Each node is verified via email, ensuring secure ownership and control.
-Peer-to-Peer (P2P) Communication: Nodes discover each other and communicate directly using WebRTC and WebSockets.
-Distributed Storage: Files (e.g., email attachments) are distributed across nodes, providing redundancy and resilience.
-Local Hosting: Each machine acts as a local server, serving files and processing email attachments.
-Secure and Private: All communication remains within the user's local network and devices—no third-party servers involved.
-📂 Project Structure
-bash
-Copy code
+A **fully decentralized, peer-to-peer (P2P) distributed network** that allows for secure file and email handling. Each node is authenticated via email, and the system allows seamless communication and data replication between the user's nodes. This solution is entirely self-hosted and does not rely on third-party services.
+
+## 🚀 Features
+
+- **Email-Based Authentication**: Each node is verified via email, ensuring secure ownership and control.
+- **Peer-to-Peer (P2P) Communication**: Nodes discover each other and communicate directly using WebRTC and WebSockets.
+- **Distributed Storage**: Files (e.g., email attachments) are distributed across nodes, providing redundancy and resilience.
+- **Local Hosting**: Each machine acts as a local server, serving files and processing email attachments.
+- **Secure and Private**: All communication remains within the user's local network and devices—no third-party servers involved.
+
+## 📂 Project Structure
+
+```bash
 .
 ├── browser-extension/       # Chrome Extension to facilitate distributed node handling
 │   ├── background.js        # P2P logic for node discovery and communication
@@ -20,6 +23,7 @@ Copy code
 │   ├── main.py              # Main server logic for email checking, file serving, and P2P discovery
 ├── icons/                   # Icons for the browser extension
 └── README.md                # This README file
+
 🛠️ Setup and Installation
 Follow the instructions below to set up the distributed network on your devices.
 
